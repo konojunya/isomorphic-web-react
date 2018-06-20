@@ -1,5 +1,14 @@
 {
   "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "prettier": true,
+    "interface-name": [true, "never-prefix"],
+    "no-var-requires": false,
+    "object-literal-sort-keys": false,
+    "no-namespace": false,
+    "no-shadowed-variable": false,
+    "max-classes-per-file": false
+  },
   "linterOptions": {
     "exclude": [
       "config/**/*.js",
