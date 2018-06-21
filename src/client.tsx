@@ -9,10 +9,9 @@ import { sagas } from "./store";
 const supportsHistory = "pushState" in window.history;
 
 const __STATE__ = (window as any).__STATE__;
-delete (window as any).__STATE__;
 
 const store = configureStore(__STATE__) as any;
-const Routes = route.createRoutes(store);
+const Routes = route.client(store);
 
 store.runSaga(sagas);
 

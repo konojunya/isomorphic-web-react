@@ -22,7 +22,7 @@ RootController.get(serverRoutes, (req, res) => {
 
   const store = configureStore()
   const context = {}
-  const Routes = route.createRoutes(store);
+  const Routes = route.server(store);
 
   const locals = {
     params: req.params,

@@ -17,7 +17,11 @@ class Client {
   }
 
   public getUsers() {
-    return this.http.get("/users");
+    return new Promise(resolve => {
+      setTimeout(() => {
+        resolve(this.http.get("/users"));
+      }, 1000 * 5)
+    })
   }
 }
 
