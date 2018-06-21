@@ -19234,7 +19234,7 @@ var asEffect = {
 /*! exports provided: takeEvery, takeLatest, throttle, takeEveryHelper, takeLatestHelper, throttleHelper */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/redux-saga/es/internal/buffers.js because of ./node_modules/redux-saga/es/index.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/redux-saga/es/internal/channel.js because of ./node_modules/redux-saga/es/index.js */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/redux-saga/es/internal/io.js because of ./node_modules/redux-saga/es/index.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/redux-saga/es/internal/io.js because of ./node_modules/redux-saga/es/effects.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/redux-saga/es/internal/utils.js because of ./node_modules/redux-saga/es/index.js */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
